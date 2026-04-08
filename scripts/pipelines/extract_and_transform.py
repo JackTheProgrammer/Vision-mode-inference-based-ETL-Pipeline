@@ -448,13 +448,13 @@ def get_db_connection():
         env_file_path = Path('config/.env')
         if env_file_path.exists():
             load_dotenv(env_file_path)
-            conn = psycopg2.connect(os.getenv('ON_PREMISE_DB'))
+            conn = psycopg2.connect(os.getenv('ON_PREMISE_DB'), connect_timeout=10)
         
         # Use the DSN string logic we discussed for NeonDB/Production
         # on GitHub Actions, where the .env file won't be present, 
         # and the connection string is provided via env vars.
         elif env_file_path.exists() == False:
-            conn = psycopg2.connect(os.getenv('NEON_DATABASE_URL'))
+            conn = psycopg2.connect(os.getenv('NEON_DATABASE_URL'), connect_timeout=10)
         return conn
     except Exception as e:
         logging.error(f"Database connection failed: {e}")
