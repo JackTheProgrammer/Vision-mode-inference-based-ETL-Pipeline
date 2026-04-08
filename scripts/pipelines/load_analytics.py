@@ -1,21 +1,27 @@
 import psycopg2
 from dotenv import load_dotenv
 from os import getenv
+from pathlib import Path
 from typing import Any
 from pandas import DataFrame
 
 def get_db_connection():
     """Handles secure database connection."""
     try:
-        load_dotenv('config/.env')
-        conn = psycopg2.connect(
-            host=getenv('DB_HOST'),
-            port=getenv('DB_PORT', 5432),
-            dbname=getenv('DB_DATABASE'),
-            user=getenv('DB_USER'),
-            password=getenv('DB_PASSWORD'),
-            connect_timeout=10
-        )
+        env_file = Path('config/.env')
+        if env_file.exists():
+            load_dotenv('config/.env')
+            conn = psycopg2.connect(
+                host=getenv('DB_HOST'),
+                port=getenv('DB_PORT', 5432),
+                dbname=getenv('DB_DATABASE'),
+                user=getenv('DB_USER'),
+                password=getenv('DB_PASSWORD'),
+                connect_timeout=10
+            )
+        else:
+            # This means that we're on GitHub Actions, so we should use the GitHub Secrets
+            conn = psycopg2.connect(getenv('NEON_DATABASE_URL'), connect_timeout=10)
         return conn
     except psycopg2.Error as e:
         print(f"Database connection failed: {e}")
