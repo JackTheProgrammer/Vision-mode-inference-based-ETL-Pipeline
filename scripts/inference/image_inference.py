@@ -1,4 +1,5 @@
 from ultralytics import YOLO
+from torch import cuda
 
 def image_inference(image_path: str) -> list[str]:
     """
@@ -12,6 +13,8 @@ def image_inference(image_path: str) -> list[str]:
     
     model_path = 'model/best.pt'
     model = YOLO(model_path)
+    
+    device = 0 if cuda.is_available() else 'cpu'
 
     results = model.predict(
         source=image_path, 
@@ -22,7 +25,7 @@ def image_inference(image_path: str) -> list[str]:
         save_frames=False,
         save_conf=False,
         show=False, 
-        device=0,
+        device=device,
         visualize=False,
         augment=False, # I am setting it to False because when it's True it's robust, YET at the cost of speed.
         show_labels=False,
