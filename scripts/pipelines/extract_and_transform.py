@@ -442,8 +442,19 @@ load_dotenv(BASE_DIR / 'config/.env')
 def get_db_connection():
     """Centralized connection logic (Cloud-ready for NeonDB)."""
     try:
+        # This is done for on-prem setups where .env might be used, 
+        # but in production with NeonDB, the NEON_DATABASE_URL env var 
+        # should be retrieved from the GitHub secrets.
+        env_file_path = Path('config/.env')
+        if env_file_path.exists():
+            load_dotenv(env_file_path)
+            conn = psycopg2.connect(os.getenv('ON_PREMISE_DB'))
+        
         # Use the DSN string logic we discussed for NeonDB/Production
-        conn = psycopg2.connect(os.getenv('NEON_DATABASE_URL'))
+        # on GitHub Actions, where the .env file won't be present, 
+        # and the connection string is provided via env vars.
+        elif env_file_path.exists() == False:
+            conn = psycopg2.connect(os.getenv('NEON_DATABASE_URL'))
         return conn
     except Exception as e:
         logging.error(f"Database connection failed: {e}")
