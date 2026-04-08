@@ -1,0 +1,4 @@
+SELECT detected_obj_class_name,
+AVG(detected_obj_confidence) AS detect_obj_avg_conf
+FROM public.video_inferenced_analytics_flattened
+GROUP BY detected_obj_class_name, detected_obj_confidence;

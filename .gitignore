@@ -1,0 +1,11 @@
+.vscode
+/.vscode/*
+.idea
+.DS_Store
+*.log
+.env
+/photo_inference_dumps.txt
+/video_inference_dumps.txt
+/scripts/__pycache__
+/scripts/pipelines/__pycache__
+/scripts/inference/__pycache__

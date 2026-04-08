@@ -1,0 +1,122 @@
+image_inference_id,class_name,confidence,x1,y1,x2,y2
+1,"['left-red', 'green', 'green']","[Decimal('0.86433'), Decimal('0.82834'), Decimal('0.78863')]","[Decimal('74.4432'), Decimal('147.98175'), Decimal('197.0587')]","[Decimal('171.69449'), Decimal('164.88708'), Decimal('172.01251')]","[Decimal('81.91772'), Decimal('156.21298'), Decimal('205.08611')]","[Decimal('202.74001'), Decimal('197.14493'), Decimal('204.14474')]"
+2,[],[],[],[],[],[]
+3,['left-red'],[Decimal('0.85797')],[Decimal('208.38176')],[Decimal('199.88956')],[Decimal('214.57826')],[Decimal('230.33347')]
+4,"['left-red', 'red', 'red']","[Decimal('0.85225'), Decimal('0.84234'), Decimal('0.84154')]","[Decimal('51.24099'), Decimal('127.26116'), Decimal('177.0034')]","[Decimal('173.59756'), Decimal('167.12248'), Decimal('173.74438')]","[Decimal('59.36975'), Decimal('135.52699'), Decimal('184.78908')]","[Decimal('204.92896'), Decimal('199.19084'), Decimal('206.27049')]"
+5,"['left-red', 'red', 'red']","[Decimal('0.8467'), Decimal('0.84398'), Decimal('0.83245')]","[Decimal('52.07439'), Decimal('128.20851'), Decimal('178.46089')]","[Decimal('163.92252'), Decimal('158.92448'), Decimal('167.91736')]","[Decimal('59.83028'), Decimal('136.38254'), Decimal('185.44443')]","[Decimal('195.32721'), Decimal('191.63327'), Decimal('198.62244')]"
+6,[],[],[],[],[],[]
+7,"['green', 'left-red']","[Decimal('0.81741'), Decimal('0.77638')]","[Decimal('134.97356'), Decimal('298.35782')]","[Decimal('129.00793'), Decimal('189.50417')]","[Decimal('148.42818'), Decimal('317.5578')]","[Decimal('174.41165'), Decimal('247.40361')]"
+8,[],[],[],[],[],[]
+9,"['red', 'red', 'red']","[Decimal('0.83495'), Decimal('0.83296'), Decimal('0.78692')]","[Decimal('134.53491'), Decimal('315.81665'), Decimal('251.93105')]","[Decimal('172.40555'), Decimal('125.52139'), Decimal('246.61572')]","[Decimal('142.87514'), Decimal('339.54688'), Decimal('261.18665')]","[Decimal('205.08289'), Decimal('216.76262'), Decimal('280.57416')]"
+10,[],[],[],[],[],[]
+11,"['left-red', 'left-red']","[Decimal('0.87243'), Decimal('0.76265')]","[Decimal('66.09826'), Decimal('201.56744')]","[Decimal('119.80598'), Decimal('114.01026')]","[Decimal('84.82066'), Decimal('219.91954')]","[Decimal('148.47246'), Decimal('143.76924')]"
+12,"['left-red', 'green', 'green']","[Decimal('0.86433'), Decimal('0.82834'), Decimal('0.78863')]","[Decimal('74.4432'), Decimal('147.98175'), Decimal('197.0587')]","[Decimal('171.69449'), Decimal('164.88708'), Decimal('172.01251')]","[Decimal('81.91772'), Decimal('156.21298'), Decimal('205.08611')]","[Decimal('202.74001'), Decimal('197.14493'), Decimal('204.14474')]"
+13,[],[],[],[],[],[]
+14,['left-red'],[Decimal('0.85797')],[Decimal('208.38176')],[Decimal('199.88956')],[Decimal('214.57826')],[Decimal('230.33347')]
+15,"['left-red', 'red', 'red']","[Decimal('0.85225'), Decimal('0.84234'), Decimal('0.84154')]","[Decimal('51.24099'), Decimal('127.26116'), Decimal('177.0034')]","[Decimal('173.59756'), Decimal('167.12248'), Decimal('173.74438')]","[Decimal('59.36975'), Decimal('135.52699'), Decimal('184.78908')]","[Decimal('204.92896'), Decimal('199.19084'), Decimal('206.27049')]"
+16,"['left-red', 'red', 'red']","[Decimal('0.8467'), Decimal('0.84398'), Decimal('0.83245')]","[Decimal('52.07439'), Decimal('128.20851'), Decimal('178.46089')]","[Decimal('163.92252'), Decimal('158.92448'), Decimal('167.91736')]","[Decimal('59.83028'), Decimal('136.38254'), Decimal('185.44443')]","[Decimal('195.32721'), Decimal('191.63327'), Decimal('198.62244')]"
+17,[],[],[],[],[],[]
+18,"['green', 'left-red']","[Decimal('0.81741'), Decimal('0.77638')]","[Decimal('134.97356'), Decimal('298.35782')]","[Decimal('129.00793'), Decimal('189.50417')]","[Decimal('148.42818'), Decimal('317.5578')]","[Decimal('174.41165'), Decimal('247.40361')]"
+19,[],[],[],[],[],[]
+20,"['red', 'red', 'red']","[Decimal('0.83495'), Decimal('0.83296'), Decimal('0.78692')]","[Decimal('134.53491'), Decimal('315.81665'), Decimal('251.93105')]","[Decimal('172.40555'), Decimal('125.52139'), Decimal('246.61572')]","[Decimal('142.87514'), Decimal('339.54688'), Decimal('261.18665')]","[Decimal('205.08289'), Decimal('216.76262'), Decimal('280.57416')]"
+21,[],[],[],[],[],[]
+22,"['left-red', 'left-red']","[Decimal('0.87243'), Decimal('0.76265')]","[Decimal('66.09826'), Decimal('201.56744')]","[Decimal('119.80598'), Decimal('114.01026')]","[Decimal('84.82066'), Decimal('219.91954')]","[Decimal('148.47246'), Decimal('143.76924')]"
+23,"['left-red', 'green', 'green']","[Decimal('0.86433'), Decimal('0.82834'), Decimal('0.78863')]","[Decimal('74.4432'), Decimal('147.98175'), Decimal('197.0587')]","[Decimal('171.69449'), Decimal('164.88708'), Decimal('172.01251')]","[Decimal('81.91772'), Decimal('156.21298'), Decimal('205.08611')]","[Decimal('202.74001'), Decimal('197.14493'), Decimal('204.14474')]"
+24,[],[],[],[],[],[]
+25,['left-red'],[Decimal('0.85797')],[Decimal('208.38176')],[Decimal('199.88956')],[Decimal('214.57826')],[Decimal('230.33347')]
+26,"['left-red', 'red', 'red']","[Decimal('0.85225'), Decimal('0.84234'), Decimal('0.84154')]","[Decimal('51.24099'), Decimal('127.26116'), Decimal('177.0034')]","[Decimal('173.59756'), Decimal('167.12248'), Decimal('173.74438')]","[Decimal('59.36975'), Decimal('135.52699'), Decimal('184.78908')]","[Decimal('204.92896'), Decimal('199.19084'), Decimal('206.27049')]"
+27,"['left-red', 'red', 'red']","[Decimal('0.8467'), Decimal('0.84398'), Decimal('0.83245')]","[Decimal('52.07439'), Decimal('128.20851'), Decimal('178.46089')]","[Decimal('163.92252'), Decimal('158.92448'), Decimal('167.91736')]","[Decimal('59.83028'), Decimal('136.38254'), Decimal('185.44443')]","[Decimal('195.32721'), Decimal('191.63327'), Decimal('198.62244')]"
+28,[],[],[],[],[],[]
+29,"['green', 'left-red']","[Decimal('0.81741'), Decimal('0.77638')]","[Decimal('134.97356'), Decimal('298.35782')]","[Decimal('129.00793'), Decimal('189.50417')]","[Decimal('148.42818'), Decimal('317.5578')]","[Decimal('174.41165'), Decimal('247.40361')]"
+30,[],[],[],[],[],[]
+31,"['red', 'red', 'red']","[Decimal('0.83495'), Decimal('0.83296'), Decimal('0.78692')]","[Decimal('134.53491'), Decimal('315.81665'), Decimal('251.93105')]","[Decimal('172.40555'), Decimal('125.52139'), Decimal('246.61572')]","[Decimal('142.87514'), Decimal('339.54688'), Decimal('261.18665')]","[Decimal('205.08289'), Decimal('216.76262'), Decimal('280.57416')]"
+32,[],[],[],[],[],[]
+33,"['left-red', 'left-red']","[Decimal('0.87243'), Decimal('0.76265')]","[Decimal('66.09826'), Decimal('201.56744')]","[Decimal('119.80598'), Decimal('114.01026')]","[Decimal('84.82066'), Decimal('219.91954')]","[Decimal('148.47246'), Decimal('143.76924')]"
+34,"['left-red', 'green', 'green']","[Decimal('0.86433'), Decimal('0.82834'), Decimal('0.78863')]","[Decimal('74.4432'), Decimal('147.98175'), Decimal('197.0587')]","[Decimal('171.69449'), Decimal('164.88708'), Decimal('172.01251')]","[Decimal('81.91772'), Decimal('156.21298'), Decimal('205.08611')]","[Decimal('202.74001'), Decimal('197.14493'), Decimal('204.14474')]"
+35,[],[],[],[],[],[]
+36,['left-red'],[Decimal('0.85797')],[Decimal('208.38176')],[Decimal('199.88956')],[Decimal('214.57826')],[Decimal('230.33347')]
+37,"['left-red', 'red', 'red']","[Decimal('0.85225'), Decimal('0.84234'), Decimal('0.84154')]","[Decimal('51.24099'), Decimal('127.26116'), Decimal('177.0034')]","[Decimal('173.59756'), Decimal('167.12248'), Decimal('173.74438')]","[Decimal('59.36975'), Decimal('135.52699'), Decimal('184.78908')]","[Decimal('204.92896'), Decimal('199.19084'), Decimal('206.27049')]"
+38,"['left-red', 'red', 'red']","[Decimal('0.8467'), Decimal('0.84398'), Decimal('0.83245')]","[Decimal('52.07439'), Decimal('128.20851'), Decimal('178.46089')]","[Decimal('163.92252'), Decimal('158.92448'), Decimal('167.91736')]","[Decimal('59.83028'), Decimal('136.38254'), Decimal('185.44443')]","[Decimal('195.32721'), Decimal('191.63327'), Decimal('198.62244')]"
+39,[],[],[],[],[],[]
+40,"['green', 'left-red']","[Decimal('0.81741'), Decimal('0.77638')]","[Decimal('134.97356'), Decimal('298.35782')]","[Decimal('129.00793'), Decimal('189.50417')]","[Decimal('148.42818'), Decimal('317.5578')]","[Decimal('174.41165'), Decimal('247.40361')]"
+41,[],[],[],[],[],[]
+42,"['red', 'red', 'red']","[Decimal('0.83495'), Decimal('0.83296'), Decimal('0.78692')]","[Decimal('134.53491'), Decimal('315.81665'), Decimal('251.93105')]","[Decimal('172.40555'), Decimal('125.52139'), Decimal('246.61572')]","[Decimal('142.87514'), Decimal('339.54688'), Decimal('261.18665')]","[Decimal('205.08289'), Decimal('216.76262'), Decimal('280.57416')]"
+43,[],[],[],[],[],[]
+44,"['left-red', 'left-red']","[Decimal('0.87243'), Decimal('0.76265')]","[Decimal('66.09826'), Decimal('201.56744')]","[Decimal('119.80598'), Decimal('114.01026')]","[Decimal('84.82066'), Decimal('219.91954')]","[Decimal('148.47246'), Decimal('143.76924')]"
+67,"['left-red', 'green', 'green']","[Decimal('0.86433'), Decimal('0.82834'), Decimal('0.78863')]","[Decimal('74.4432'), Decimal('147.98175'), Decimal('197.0587')]","[Decimal('171.69449'), Decimal('164.88708'), Decimal('172.01251')]","[Decimal('81.91772'), Decimal('156.21298'), Decimal('205.08611')]","[Decimal('202.74001'), Decimal('197.14493'), Decimal('204.14474')]"
+68,[],[],[],[],[],[]
+69,['left-red'],[Decimal('0.85797')],[Decimal('208.38176')],[Decimal('199.88956')],[Decimal('214.57826')],[Decimal('230.33347')]
+70,"['left-red', 'red', 'red']","[Decimal('0.85225'), Decimal('0.84234'), Decimal('0.84154')]","[Decimal('51.24099'), Decimal('127.26116'), Decimal('177.0034')]","[Decimal('173.59756'), Decimal('167.12248'), Decimal('173.74438')]","[Decimal('59.36975'), Decimal('135.52699'), Decimal('184.78908')]","[Decimal('204.92896'), Decimal('199.19084'), Decimal('206.27049')]"
+71,"['left-red', 'red', 'red']","[Decimal('0.8467'), Decimal('0.84398'), Decimal('0.83245')]","[Decimal('52.07439'), Decimal('128.20851'), Decimal('178.46089')]","[Decimal('163.92252'), Decimal('158.92448'), Decimal('167.91736')]","[Decimal('59.83028'), Decimal('136.38254'), Decimal('185.44443')]","[Decimal('195.32721'), Decimal('191.63327'), Decimal('198.62244')]"
+72,[],[],[],[],[],[]
+73,"['green', 'left-red']","[Decimal('0.81741'), Decimal('0.77638')]","[Decimal('134.97356'), Decimal('298.35782')]","[Decimal('129.00793'), Decimal('189.50417')]","[Decimal('148.42818'), Decimal('317.5578')]","[Decimal('174.41165'), Decimal('247.40361')]"
+74,[],[],[],[],[],[]
+75,"['red', 'red', 'red']","[Decimal('0.83495'), Decimal('0.83296'), Decimal('0.78692')]","[Decimal('134.53491'), Decimal('315.81665'), Decimal('251.93105')]","[Decimal('172.40555'), Decimal('125.52139'), Decimal('246.61572')]","[Decimal('142.87514'), Decimal('339.54688'), Decimal('261.18665')]","[Decimal('205.08289'), Decimal('216.76262'), Decimal('280.57416')]"
+76,[],[],[],[],[],[]
+77,"['left-red', 'left-red']","[Decimal('0.87243'), Decimal('0.76265')]","[Decimal('66.09826'), Decimal('201.56744')]","[Decimal('119.80598'), Decimal('114.01026')]","[Decimal('84.82066'), Decimal('219.91954')]","[Decimal('148.47246'), Decimal('143.76924')]"
+78,"['left-red', 'green', 'green']","[Decimal('0.86433'), Decimal('0.82834'), Decimal('0.78863')]","[Decimal('74.4432'), Decimal('147.98175'), Decimal('197.0587')]","[Decimal('171.69449'), Decimal('164.88708'), Decimal('172.01251')]","[Decimal('81.91772'), Decimal('156.21298'), Decimal('205.08611')]","[Decimal('202.74001'), Decimal('197.14493'), Decimal('204.14474')]"
+79,[],[],[],[],[],[]
+80,['left-red'],[Decimal('0.85797')],[Decimal('208.38176')],[Decimal('199.88956')],[Decimal('214.57826')],[Decimal('230.33347')]
+81,"['left-red', 'red', 'red']","[Decimal('0.85225'), Decimal('0.84234'), Decimal('0.84154')]","[Decimal('51.24099'), Decimal('127.26116'), Decimal('177.0034')]","[Decimal('173.59756'), Decimal('167.12248'), Decimal('173.74438')]","[Decimal('59.36975'), Decimal('135.52699'), Decimal('184.78908')]","[Decimal('204.92896'), Decimal('199.19084'), Decimal('206.27049')]"
+82,"['left-red', 'red', 'red']","[Decimal('0.8467'), Decimal('0.84398'), Decimal('0.83245')]","[Decimal('52.07439'), Decimal('128.20851'), Decimal('178.46089')]","[Decimal('163.92252'), Decimal('158.92448'), Decimal('167.91736')]","[Decimal('59.83028'), Decimal('136.38254'), Decimal('185.44443')]","[Decimal('195.32721'), Decimal('191.63327'), Decimal('198.62244')]"
+83,[],[],[],[],[],[]
+84,"['green', 'left-red']","[Decimal('0.81741'), Decimal('0.77638')]","[Decimal('134.97356'), Decimal('298.35782')]","[Decimal('129.00793'), Decimal('189.50417')]","[Decimal('148.42818'), Decimal('317.5578')]","[Decimal('174.41165'), Decimal('247.40361')]"
+85,[],[],[],[],[],[]
+86,"['red', 'red', 'red']","[Decimal('0.83495'), Decimal('0.83296'), Decimal('0.78692')]","[Decimal('134.53491'), Decimal('315.81665'), Decimal('251.93105')]","[Decimal('172.40555'), Decimal('125.52139'), Decimal('246.61572')]","[Decimal('142.87514'), Decimal('339.54688'), Decimal('261.18665')]","[Decimal('205.08289'), Decimal('216.76262'), Decimal('280.57416')]"
+87,[],[],[],[],[],[]
+88,"['left-red', 'left-red']","[Decimal('0.87243'), Decimal('0.76265')]","[Decimal('66.09826'), Decimal('201.56744')]","[Decimal('119.80598'), Decimal('114.01026')]","[Decimal('84.82066'), Decimal('219.91954')]","[Decimal('148.47246'), Decimal('143.76924')]"
+89,"['left-red', 'green', 'green']","[Decimal('0.86433'), Decimal('0.82834'), Decimal('0.78863')]","[Decimal('74.4432'), Decimal('147.98175'), Decimal('197.0587')]","[Decimal('171.69449'), Decimal('164.88708'), Decimal('172.01251')]","[Decimal('81.91772'), Decimal('156.21298'), Decimal('205.08611')]","[Decimal('202.74001'), Decimal('197.14493'), Decimal('204.14474')]"
+90,[],[],[],[],[],[]
+91,['left-red'],[Decimal('0.85797')],[Decimal('208.38176')],[Decimal('199.88956')],[Decimal('214.57826')],[Decimal('230.33347')]
+92,"['left-red', 'red', 'red']","[Decimal('0.85225'), Decimal('0.84234'), Decimal('0.84154')]","[Decimal('51.24099'), Decimal('127.26116'), Decimal('177.0034')]","[Decimal('173.59756'), Decimal('167.12248'), Decimal('173.74438')]","[Decimal('59.36975'), Decimal('135.52699'), Decimal('184.78908')]","[Decimal('204.92896'), Decimal('199.19084'), Decimal('206.27049')]"
+93,"['left-red', 'red', 'red']","[Decimal('0.8467'), Decimal('0.84398'), Decimal('0.83245')]","[Decimal('52.07439'), Decimal('128.20851'), Decimal('178.46089')]","[Decimal('163.92252'), Decimal('158.92448'), Decimal('167.91736')]","[Decimal('59.83028'), Decimal('136.38254'), Decimal('185.44443')]","[Decimal('195.32721'), Decimal('191.63327'), Decimal('198.62244')]"
+94,[],[],[],[],[],[]
+95,"['green', 'left-red']","[Decimal('0.81741'), Decimal('0.77638')]","[Decimal('134.97356'), Decimal('298.35782')]","[Decimal('129.00793'), Decimal('189.50417')]","[Decimal('148.42818'), Decimal('317.5578')]","[Decimal('174.41165'), Decimal('247.40361')]"
+96,[],[],[],[],[],[]
+97,"['red', 'red', 'red']","[Decimal('0.83495'), Decimal('0.83296'), Decimal('0.78692')]","[Decimal('134.53491'), Decimal('315.81665'), Decimal('251.93105')]","[Decimal('172.40555'), Decimal('125.52139'), Decimal('246.61572')]","[Decimal('142.87514'), Decimal('339.54688'), Decimal('261.18665')]","[Decimal('205.08289'), Decimal('216.76262'), Decimal('280.57416')]"
+98,[],[],[],[],[],[]
+99,"['left-red', 'left-red']","[Decimal('0.87243'), Decimal('0.76265')]","[Decimal('66.09826'), Decimal('201.56744')]","[Decimal('119.80598'), Decimal('114.01026')]","[Decimal('84.82066'), Decimal('219.91954')]","[Decimal('148.47246'), Decimal('143.76924')]"
+100,"['left-red', 'green', 'green']","[Decimal('0.86433'), Decimal('0.82834'), Decimal('0.78863')]","[Decimal('74.4432'), Decimal('147.98175'), Decimal('197.0587')]","[Decimal('171.69449'), Decimal('164.88708'), Decimal('172.01251')]","[Decimal('81.91772'), Decimal('156.21298'), Decimal('205.08611')]","[Decimal('202.74001'), Decimal('197.14493'), Decimal('204.14474')]"
+101,[],[],[],[],[],[]
+102,['left-red'],[Decimal('0.85797')],[Decimal('208.38176')],[Decimal('199.88956')],[Decimal('214.57826')],[Decimal('230.33347')]
+103,"['left-red', 'red', 'red']","[Decimal('0.85225'), Decimal('0.84234'), Decimal('0.84154')]","[Decimal('51.24099'), Decimal('127.26116'), Decimal('177.0034')]","[Decimal('173.59756'), Decimal('167.12248'), Decimal('173.74438')]","[Decimal('59.36975'), Decimal('135.52699'), Decimal('184.78908')]","[Decimal('204.92896'), Decimal('199.19084'), Decimal('206.27049')]"
+104,"['left-red', 'red', 'red']","[Decimal('0.8467'), Decimal('0.84398'), Decimal('0.83245')]","[Decimal('52.07439'), Decimal('128.20851'), Decimal('178.46089')]","[Decimal('163.92252'), Decimal('158.92448'), Decimal('167.91736')]","[Decimal('59.83028'), Decimal('136.38254'), Decimal('185.44443')]","[Decimal('195.32721'), Decimal('191.63327'), Decimal('198.62244')]"
+105,[],[],[],[],[],[]
+106,"['green', 'left-red']","[Decimal('0.81741'), Decimal('0.77638')]","[Decimal('134.97356'), Decimal('298.35782')]","[Decimal('129.00793'), Decimal('189.50417')]","[Decimal('148.42818'), Decimal('317.5578')]","[Decimal('174.41165'), Decimal('247.40361')]"
+107,[],[],[],[],[],[]
+108,"['red', 'red', 'red']","[Decimal('0.83495'), Decimal('0.83296'), Decimal('0.78692')]","[Decimal('134.53491'), Decimal('315.81665'), Decimal('251.93105')]","[Decimal('172.40555'), Decimal('125.52139'), Decimal('246.61572')]","[Decimal('142.87514'), Decimal('339.54688'), Decimal('261.18665')]","[Decimal('205.08289'), Decimal('216.76262'), Decimal('280.57416')]"
+109,[],[],[],[],[],[]
+110,"['left-red', 'left-red']","[Decimal('0.87243'), Decimal('0.76265')]","[Decimal('66.09826'), Decimal('201.56744')]","[Decimal('119.80598'), Decimal('114.01026')]","[Decimal('84.82066'), Decimal('219.91954')]","[Decimal('148.47246'), Decimal('143.76924')]"
+111,"['left-red', 'green', 'green']","[Decimal('0.86433'), Decimal('0.82834'), Decimal('0.78863')]","[Decimal('74.4432'), Decimal('147.98175'), Decimal('197.0587')]","[Decimal('171.69449'), Decimal('164.88708'), Decimal('172.01251')]","[Decimal('81.91772'), Decimal('156.21298'), Decimal('205.08611')]","[Decimal('202.74001'), Decimal('197.14493'), Decimal('204.14474')]"
+112,[],[],[],[],[],[]
+113,['left-red'],[Decimal('0.85797')],[Decimal('208.38176')],[Decimal('199.88956')],[Decimal('214.57826')],[Decimal('230.33347')]
+114,"['left-red', 'red', 'red']","[Decimal('0.85225'), Decimal('0.84234'), Decimal('0.84154')]","[Decimal('51.24099'), Decimal('127.26116'), Decimal('177.0034')]","[Decimal('173.59756'), Decimal('167.12248'), Decimal('173.74438')]","[Decimal('59.36975'), Decimal('135.52699'), Decimal('184.78908')]","[Decimal('204.92896'), Decimal('199.19084'), Decimal('206.27049')]"
+115,"['left-red', 'red', 'red']","[Decimal('0.8467'), Decimal('0.84398'), Decimal('0.83245')]","[Decimal('52.07439'), Decimal('128.20851'), Decimal('178.46089')]","[Decimal('163.92252'), Decimal('158.92448'), Decimal('167.91736')]","[Decimal('59.83028'), Decimal('136.38254'), Decimal('185.44443')]","[Decimal('195.32721'), Decimal('191.63327'), Decimal('198.62244')]"
+116,[],[],[],[],[],[]
+117,"['green', 'left-red']","[Decimal('0.81741'), Decimal('0.77638')]","[Decimal('134.97356'), Decimal('298.35782')]","[Decimal('129.00793'), Decimal('189.50417')]","[Decimal('148.42818'), Decimal('317.5578')]","[Decimal('174.41165'), Decimal('247.40361')]"
+118,[],[],[],[],[],[]
+119,"['red', 'red', 'red']","[Decimal('0.83495'), Decimal('0.83296'), Decimal('0.78692')]","[Decimal('134.53491'), Decimal('315.81665'), Decimal('251.93105')]","[Decimal('172.40555'), Decimal('125.52139'), Decimal('246.61572')]","[Decimal('142.87514'), Decimal('339.54688'), Decimal('261.18665')]","[Decimal('205.08289'), Decimal('216.76262'), Decimal('280.57416')]"
+120,[],[],[],[],[],[]
+121,"['left-red', 'left-red']","[Decimal('0.87243'), Decimal('0.76265')]","[Decimal('66.09826'), Decimal('201.56744')]","[Decimal('119.80598'), Decimal('114.01026')]","[Decimal('84.82066'), Decimal('219.91954')]","[Decimal('148.47246'), Decimal('143.76924')]"
+122,"['left-red', 'green', 'green']","[Decimal('0.86433'), Decimal('0.82834'), Decimal('0.78863')]","[Decimal('74.4432'), Decimal('147.98175'), Decimal('197.0587')]","[Decimal('171.69449'), Decimal('164.88708'), Decimal('172.01251')]","[Decimal('81.91772'), Decimal('156.21298'), Decimal('205.08611')]","[Decimal('202.74001'), Decimal('197.14493'), Decimal('204.14474')]"
+123,[],[],[],[],[],[]
+124,['left-red'],[Decimal('0.85797')],[Decimal('208.38176')],[Decimal('199.88956')],[Decimal('214.57826')],[Decimal('230.33347')]
+125,"['left-red', 'red', 'red']","[Decimal('0.85225'), Decimal('0.84234'), Decimal('0.84154')]","[Decimal('51.24099'), Decimal('127.26116'), Decimal('177.0034')]","[Decimal('173.59756'), Decimal('167.12248'), Decimal('173.74438')]","[Decimal('59.36975'), Decimal('135.52699'), Decimal('184.78908')]","[Decimal('204.92896'), Decimal('199.19084'), Decimal('206.27049')]"
+126,"['left-red', 'red', 'red']","[Decimal('0.8467'), Decimal('0.84398'), Decimal('0.83245')]","[Decimal('52.07439'), Decimal('128.20851'), Decimal('178.46089')]","[Decimal('163.92252'), Decimal('158.92448'), Decimal('167.91736')]","[Decimal('59.83028'), Decimal('136.38254'), Decimal('185.44443')]","[Decimal('195.32721'), Decimal('191.63327'), Decimal('198.62244')]"
+127,[],[],[],[],[],[]
+128,"['green', 'left-red']","[Decimal('0.81741'), Decimal('0.77638')]","[Decimal('134.97356'), Decimal('298.35782')]","[Decimal('129.00793'), Decimal('189.50417')]","[Decimal('148.42818'), Decimal('317.5578')]","[Decimal('174.41165'), Decimal('247.40361')]"
+129,[],[],[],[],[],[]
+130,"['red', 'red', 'red']","[Decimal('0.83495'), Decimal('0.83296'), Decimal('0.78692')]","[Decimal('134.53491'), Decimal('315.81665'), Decimal('251.93105')]","[Decimal('172.40555'), Decimal('125.52139'), Decimal('246.61572')]","[Decimal('142.87514'), Decimal('339.54688'), Decimal('261.18665')]","[Decimal('205.08289'), Decimal('216.76262'), Decimal('280.57416')]"
+131,[],[],[],[],[],[]
+132,"['left-red', 'left-red']","[Decimal('0.87243'), Decimal('0.76265')]","[Decimal('66.09826'), Decimal('201.56744')]","[Decimal('119.80598'), Decimal('114.01026')]","[Decimal('84.82066'), Decimal('219.91954')]","[Decimal('148.47246'), Decimal('143.76924')]"
+133,"['left-red', 'green', 'green']","[Decimal('0.86433'), Decimal('0.82834'), Decimal('0.78863')]","[Decimal('74.4432'), Decimal('147.98175'), Decimal('197.0587')]","[Decimal('171.69449'), Decimal('164.88708'), Decimal('172.01251')]","[Decimal('81.91772'), Decimal('156.21298'), Decimal('205.08611')]","[Decimal('202.74001'), Decimal('197.14493'), Decimal('204.14474')]"
+134,[],[],[],[],[],[]
+135,['left-red'],[Decimal('0.85797')],[Decimal('208.38176')],[Decimal('199.88956')],[Decimal('214.57826')],[Decimal('230.33347')]
+136,"['left-red', 'red', 'red']","[Decimal('0.85225'), Decimal('0.84234'), Decimal('0.84154')]","[Decimal('51.24099'), Decimal('127.26116'), Decimal('177.0034')]","[Decimal('173.59756'), Decimal('167.12248'), Decimal('173.74438')]","[Decimal('59.36975'), Decimal('135.52699'), Decimal('184.78908')]","[Decimal('204.92896'), Decimal('199.19084'), Decimal('206.27049')]"
+137,"['left-red', 'red', 'red']","[Decimal('0.8467'), Decimal('0.84398'), Decimal('0.83245')]","[Decimal('52.07439'), Decimal('128.20851'), Decimal('178.46089')]","[Decimal('163.92252'), Decimal('158.92448'), Decimal('167.91736')]","[Decimal('59.83028'), Decimal('136.38254'), Decimal('185.44443')]","[Decimal('195.32721'), Decimal('191.63327'), Decimal('198.62244')]"
+138,[],[],[],[],[],[]
+139,"['green', 'left-red']","[Decimal('0.81741'), Decimal('0.77638')]","[Decimal('134.97356'), Decimal('298.35782')]","[Decimal('129.00793'), Decimal('189.50417')]","[Decimal('148.42818'), Decimal('317.5578')]","[Decimal('174.41165'), Decimal('247.40361')]"
+140,[],[],[],[],[],[]
+141,"['red', 'red', 'red']","[Decimal('0.83495'), Decimal('0.83296'), Decimal('0.78692')]","[Decimal('134.53491'), Decimal('315.81665'), Decimal('251.93105')]","[Decimal('172.40555'), Decimal('125.52139'), Decimal('246.61572')]","[Decimal('142.87514'), Decimal('339.54688'), Decimal('261.18665')]","[Decimal('205.08289'), Decimal('216.76262'), Decimal('280.57416')]"
+142,[],[],[],[],[],[]
+143,"['left-red', 'left-red']","[Decimal('0.87243'), Decimal('0.76265')]","[Decimal('66.09826'), Decimal('201.56744')]","[Decimal('119.80598'), Decimal('114.01026')]","[Decimal('84.82066'), Decimal('219.91954')]","[Decimal('148.47246'), Decimal('143.76924')]"
