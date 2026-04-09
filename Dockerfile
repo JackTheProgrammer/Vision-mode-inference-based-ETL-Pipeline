@@ -31,4 +31,4 @@ COPY . .
 # 8. Expose Streamlit port and the running the streamlit app via CMD
 EXPOSE 8501
 
-CMD ["streamlit", "run", "scripts/app/app.py", "--server.address", "0.0.0.0"]
+CMD ["streamlit", "run", "scripts/app/dev_app.py", "--server.address", "0.0.0.0"]
