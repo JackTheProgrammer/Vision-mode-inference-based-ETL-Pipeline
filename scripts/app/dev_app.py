@@ -8,7 +8,7 @@ from pipelines.load_dev_branch_analytics import get_image_video_max_confidence
 
 st.set_page_config(page_title="Fine-tuned YOLOv11 Analytics", layout="wide")
 
-st.title("🚀 Fine-tuned YOLOv11 Live Confidence Analytics")
+st.title("🚀 Fine-tuned YOLOv11 Live Confidence Analytics (Dockerized)")
 
 # 1. Add a Sidebar Control for the Stream
 st.sidebar.header("Stream Controls")
@@ -18,7 +18,7 @@ refresh_interval = st.sidebar.slider("Refresh Interval (sec)", 1, 60, 5)
 # 2. Wrapping analytics in a Fragment
 # This allows the function to "automatically refresh" in real time
 # based on the user's settings in the sidebar.
-@st.fragment(run_every=refresh_interval if auto_refresh else None)
+@st.experimental_fragment(run_every=refresh_interval if auto_refresh else None)
 def display_live_analytics():
     st.write(f"⏱️ Last updated: {time.strftime('%H:%M:%S')}")
     

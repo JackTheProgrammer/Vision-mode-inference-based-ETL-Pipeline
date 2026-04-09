@@ -2,7 +2,7 @@
 FROM python:3.11-slim-bookworm
 
 # 2. Set Working Directory
-WORKDIR /app
+WORKDIR /visionmodel-inference-based-ETL
 
 # 3. Install System Dependencies (Required for OpenCV/Ultralytics)
 # This is the precise fix for Debian Trixie/Testing
