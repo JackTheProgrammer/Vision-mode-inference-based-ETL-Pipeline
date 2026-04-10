@@ -18,7 +18,7 @@ refresh_interval = st.sidebar.slider("Refresh Interval (sec)", 1, 60, 5)
 # 2. Wrapping analytics in a Fragment
 # This allows the function to "automatically refresh" in real time
 # based on the user's settings in the sidebar.
-@st.experimental_fragment(run_every=refresh_interval if auto_refresh else None)
+@st.fragment(run_every=refresh_interval if auto_refresh else None)
 def display_live_analytics():
     st.write(f"⏱️ Last updated: {time.strftime('%H:%M:%S')}")
     
