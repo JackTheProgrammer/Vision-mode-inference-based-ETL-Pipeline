@@ -25,7 +25,11 @@ This pipeline automates the extraction of spatial and confidence-based metadata 
 
 ## 🏗️ Technical Architecture
 
-### **1. Database & Analytics Layer**
+### **1. ERD of the PostgreSQL Database**
+
+![ERD Diagram](db\erd\yolo_inference_analytics_erd.png  "ERD Diagram")
+
+### **2. Database & Analytics Layer**
 
 The database is not just a storage bin; it is a dedicated analytical engine.
 
@@ -33,7 +37,7 @@ The database is not just a storage bin; it is a dedicated analytical engine.
 * **Complex SQL Logic:** Includes unnesting demo queries, array-element selection, and ranked confidence analytics to extract top-5 contenders from detection frames.
 * **Integrity:** Managed via custom SQL sequences for primary key governance across Video and Image inference tables.
 
-### **2. The Pipeline Logic**
+### **3. The Pipeline Logic**
 
 The scripts follow a strict separation of concerns:
 
@@ -129,5 +133,61 @@ Directory structure:
 * **Security:** Zero-leak policy for credentials using `.env` masking and GitHub Secret injection.
 * **Scalability:** The pipeline is designed to be branch-aware, allowing seamless loading into `dev` or `production` database environments.
 * **Optimized SQL:** Custom DML scripts allow for deep-dive analytics directly in the database layer, reducing overhead on the application layer.
+
+-----
+
+## 📦 Installation and setup
+
+### **Method 1: Clone the Repository**
+
+#### **Step i: Acquiring setup**
+
+```bash
+git clone https://github.com/JackTheProgrammer/Vision-mode-inference-based-ETL-Pipeline.git
+cd Vision-mode-inference-based-ETL-Pipeline
+pip install -r requirements.txt
+```
+
+#### **Step ii: Running the Data pipeline**
+
+The pipeline of data transformation is only implemented for the production branch. To execute the ETL process, run the following command:
+
+```bash
+# For production branch of NeonDB
+# Make sure to set up your .env file with the correct database credentials before running the pipeline
+python scripts/pipelines/extract_and_transform.py
+```
+
+#### **Step iii: Running the Streamlit App**
+
+```bash
+# For production branch of NeonDB
+# Make sure to set up your .env file with the correct database credentials before running the app
+streamlit run scripts/app/app.py
+```
+
+### **Method 2: Dockerized Setup**
+
+#### **Option i: Building the Docker Image and running it on-premise**
+
+```bash
+# Building the Docker image
+docker build -t vision-to-analytics-pipeline:latest .
+# Running the Docker container
+docker run -p 8501:8501 vision-to-analytics-pipeline:latest
+```
+
+#### **Option ii: Pulling the published docker image**
+
+```bash
+# Pulling the published image from Docker Hub
+docker pull fawadawan143/vision-inference-etl:dev
+# running the pulled image
+docker run -p 8501:8501 fawadawan143/vision-inference-etl:dev
+```
+
+### **My advice**
+
+I'd suggest the option ii of method 2 for recruiters and engineers who want a hassle-free experience without worrying about local environment setup. The published image is pre-configured and ready to run, allowing you to quickly see the analytics in action.
 
 **Constructed with resolute focus on system stability and data accuracy.** 🦋🛡️⚖️
