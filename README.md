@@ -27,7 +27,7 @@ This pipeline automates the extraction of spatial and confidence-based metadata 
 
 ### **1. ERD of the PostgreSQL Database**
 
-![ERD Diagram](db\erd\yolo_inference_analytics_erd.png  "ERD Diagram")
+![ERD Diagram](db/erd/yolo_inference_analytics_erd.png "ERD Diagram")
 
 ### **2. Database & Analytics Layer**
 
