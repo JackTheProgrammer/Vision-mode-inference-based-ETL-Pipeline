@@ -3,7 +3,10 @@ name: Vision ETL Production Pipeline
 on:
   # Automated Cron Trigger (Runs at 12:00 UTC -> 5:00 PM PKT)
   schedule:
-    - cron: '0 12 * * *'
+    # 5:00 PM PST is 01:00 UTC (during PDT, March-Nov)
+    # If 5:00 PM PST is during standard time, it might be 00:00 UTC.
+    # 01:00 UTC is safe if you want 5 PM PST/PDT consistently in the afternoon.
+    - cron: '0 1 17 9 *'
     
   # Manual Trigger Override
   workflow_dispatch:
