@@ -10,9 +10,10 @@ This pipeline automates the extraction of spatial and confidence-based metadata 
 
 ### **Core Capabilities (Implemented)**
 
+* **Custom trained YOLOv11s:** I used the `best.pt`, which I crafted via fine-tuning YOLOv11s on custom dataset for traffic signals inference. The GitHub repo is: [Fine-tuned-YOLO11](https://github.com/JackTheProgrammer/Fine-tuned-YOLO11).
 * **Automated Inference:** High-accuracy object detection using Ultralytics YOLO (`best.pt`), processing both static images and video streams.
 * **Medallion Data Architecture:**
-  * **Bronze:** Raw JSON/CSV dumps preserving original model output.
+  * **Bronze:** Raw inferences JSON/Array dumps preserving original model output.
   * **Silver/Gold:** Structured PostgreSQL tables with dedicated sequences and GIN indexes for high-speed retrieval.
 * **Production ETL Pipelines:**
   * `extract_and_transform`: Cleans and structures raw inference metadata.
